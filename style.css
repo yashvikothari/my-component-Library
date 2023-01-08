@@ -74,7 +74,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem 0px;
+    border-bottom-left-radius: 1rem;
     /* we add 0px because chrome browser user agentsheet takes 40px,in my local host display block is coming by browser */
 }
 
@@ -136,10 +136,10 @@ section {
 /* footers */
 footer {
     background-color: var(--secondary-color);
-    padding:2rem 1rem;
+    padding: 2rem 1rem;
     text-align: center;
-    color:white;
-    border-top-left-radius:1rem 0px ;
+    color: white;
+    border-top-left-radius: 1rem;
 
 }
 
