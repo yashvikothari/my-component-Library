@@ -1,4 +1,24 @@
+/* applied for p in body vs head by style tag to compare  para, to main h1 heading in .html */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap');
+
+/* CSS rules to specify families  */
 body {
+font-family: 'Noto Sans',
+sans-serif;
+}
+/* container */
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+
+
+
+
+
+/* body {
     color:orange
 }
 p{
@@ -10,3 +30,15 @@ h1{
 h2{
     color: rgb(0, 107, 128);
 }
+h3{
+    color: #800080;
+}
+#note {
+    color:darkgoldenrod
+}
+.dummy{
+    color:rosybrown
+}
+h1.dummy{
+    color:darksalmon
+} */
