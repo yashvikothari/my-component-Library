@@ -3,6 +3,7 @@
 :root{
     --primary-color:#2563eb;
     --secondary-color:#60a5fa ;
+    --bgbox-color:#7dd3fc;
 }
 
 /* CSS rules to specify families  */
@@ -22,13 +23,24 @@ sans-serif;
 }
 /* links */
 .links-prima {
-color:var(--primary-color);
+color:whitesmoke;
+background-color: var(--primary-color);
+border-radius:0.9rem;
+text-decoration: none;
+
+/* padding order top right bottmom left */
+padding:0.4rem 1rem
 }
 .links-seco{
-    color: var(--secondary-color);
+    color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 0.9rem;
+    padding: 0.4rem 1rem;
+    border:1px solid var(--primary-color)
 }
-
-
+hr{
+    margin: 2rem 0rem;
+}
 /* body {
     color:orange
 }
