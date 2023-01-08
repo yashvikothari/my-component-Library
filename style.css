@@ -1,7 +1,8 @@
 /* applied for p in body vs head by style tag to compare  para, to main h1 heading in .html */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap');
 :root{
-    --primary-color:#bfdbfe ;
+    --primary-color:#2563eb;
+    --secondary-color:#60a5fa ;
 }
 
 /* CSS rules to specify families  */
@@ -19,9 +20,13 @@ sans-serif;
     max-width: 600px;
     margin:auto;
 }
-
-
-
+/* links */
+.links-prima {
+color:var(--primary-color);
+}
+.links-seco{
+    color: var(--secondary-color);
+}
 
 
 /* body {
