@@ -1,5 +1,8 @@
 /* applied for p in body vs head by style tag to compare  para, to main h1 heading in .html */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap');
+:root{
+    --primary-color:#bfdbfe ;
+}
 
 /* CSS rules to specify families  */
 body {
