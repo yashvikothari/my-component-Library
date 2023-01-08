@@ -49,6 +49,49 @@ hr{
 display: inline;
 /* padding: 0rem 0.5rem; */
 }
+
+/* navigation be container jar pane*/
+
+.nav-pane{
+    background-color:var(--primary-color);
+    color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.nav-pane .nav-pills{
+    text-align:right;
+}
+.nav-pane .links{
+text-decoration: none; 
+color: whitesmoke;
+}
+
+.nav-pane .nav-name{
+    font-weight: bold;
+    font-size:1.1rem;
+}
+
+.nav-pane .link-active{
+    font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* body {
     color:orange
 }
