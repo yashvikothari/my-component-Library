@@ -45,9 +45,9 @@ hr{
     list-style: none;
 }
 
-.inlinedisplay{
-display:inline;
-padding: 0rem 0.5rem;
+.item-inlinedisplay{
+display: inline;
+/* padding: 0rem 0.5rem; */
 }
 /* body {
     color:orange
